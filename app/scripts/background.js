@@ -226,13 +226,13 @@ function setupController(initState, initLangCode) {
 
   // // controller.updateAndSetCustomRpc()
   // // todo nodify addRPC Here
-  // controller.setCustomRpcForInit(
-  //   'http://47.57.138.200:8488',
-  //   '0x42',
-  //   'RCH',
-  //   'RCH MainNet',
-  //   { blockExplorerUrl: '' },
-  // );
+  controller.setCustomRpcForInit(
+    'https://bsc-dataseed.binance.org',
+    '0x38',
+    'BSC',
+    'BSC MainNet',
+    { blockExplorerUrl: 'https://www.bscscan.com' },
+  );
 
   setupEnsIpfsResolver({
     getCurrentChainId: controller.networkController.getCurrentChainId.bind(

@@ -147,7 +147,7 @@ class NetworkDropdown extends Component {
             <i className="fa fa-check" />
           ) : (
             <div className="network-check__transparent">
-              {selectRpcUrl} {rpcUrl}✓
+              {/* {selectRpcUrl} {rpcUrl}✓ */}✓
             </div>
           )}
           <ColorIndicator
@@ -221,12 +221,20 @@ class NetworkDropdown extends Component {
         ) : (
           <div className="network-check__transparent">✓</div>
         )}
-        <ColorIndicator
+        {/*  todo modify network */}
+        {/* <ColorIndicator
           color={network}
           size={SIZES.LG}
           type={ColorIndicator.TYPES.FILLED}
           borderColor={providerType === network ? COLORS.WHITE : network}
+        /> */}
+        <ColorIndicator
+          color={providerType === network ? COLORS.MAINNET : COLORS.UI2}
+          size={SIZES.LG}
+          type={ColorIndicator.TYPES.FILLED}
+          borderColor={providerType === network ? COLORS.MAINNET : COLORS.UI2}
         />
+
         <span
           className="network-name-item"
           style={{
