@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/index.js"],"names":["default","closeProxyServer"],"mappings":";;;;;;;;;;;2CAASA,O;;;;;;mBAA8BC,gB;;;;;;;;;2CAC9BD,O","file":"index.js","sourcesContent":["export { default as createProxyServer, closeProxyServer } from './server'\nexport { default as createProxyClient } from './client'\n"]}
