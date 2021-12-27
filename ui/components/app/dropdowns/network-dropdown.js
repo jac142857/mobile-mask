@@ -165,7 +165,7 @@ class NetworkDropdown extends Component {
             {nickname || rpcUrl}
           </span>
           {/* todo modify delete network */}
-          {isCurrentRpcTarget || chainId == 0x4c7 ? null : (
+          {isCurrentRpcTarget || chainId == 0x1346601 ? null : (
             <i
               className="fa fa-times delete"
               onClick={(e) => {

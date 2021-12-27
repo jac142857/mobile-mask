@@ -13,7 +13,7 @@ const initialState = {
     frequentRpcListDetail: [
       {
         rpcUrl: 'https://rpc.142857.me',
-        chainId: '0x4c7',
+        chainId: '0x1346601',
         ticker: 'NUM',
         nickname: 'NUM MainNet',
         rpcPrefs: { blockExplorerUrl: 'https://142857.pro/explorer' },

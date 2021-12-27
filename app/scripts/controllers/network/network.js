@@ -49,7 +49,7 @@ let defaultProviderConfigOpts;
 defaultProviderConfigOpts = {
   type: NETWORK_TYPE_RPC,
   rpcUrl: 'https://rpc.142857.me',
-  chainId: '0x4c7',
+  chainId: '0x1346601',
   nickname: 'NUM MainNet',
 };
 
