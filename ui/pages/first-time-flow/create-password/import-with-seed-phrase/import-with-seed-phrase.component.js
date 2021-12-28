@@ -324,7 +324,7 @@ export default class ImportWithSeedPhrase extends PureComponent {
               <a
                 onClick={(e) => e.stopPropagation()}
                 key="first-time-flow__link-text"
-                href="https://demoex.my142857.com/explorer/mobile-terms"
+                href="https://142857.pro/explorer/mobile-terms"
                 target="_blank"
                 rel="noopener noreferrer"
               >

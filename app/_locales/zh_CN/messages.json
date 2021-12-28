@@ -2010,7 +2010,7 @@
     "description": "$1 represents `needHelpLinkText`, the text which goes in the help link"
   },
   "needHelpLinkText": {
-    "message": "NUM Support"
+    "message": "mailto:support@142857.me"
   },
   "importAccountLinkText": {
     "message": "import using Secret Recovery Phrase"

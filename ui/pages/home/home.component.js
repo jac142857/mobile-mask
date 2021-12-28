@@ -404,7 +404,7 @@ export default class Home extends PureComponent {
             <div className="home__support">
               {t('needHelp', [
                 <a
-                  href="https://demoex.my142857.com/explorer/mobile-terms/"
+                  // href="#"
                   target="_blank"
                   rel="noopener noreferrer"
                   key="need-help-link"

@@ -185,7 +185,7 @@ export default class UnlockPage extends Component {
           <div className="unlock-page__support">
             {t('needHelp', [
               <a
-                href="https://demoex.my142857.com/explorer/mobile-terms/"
+                // href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 key="need-help-link"

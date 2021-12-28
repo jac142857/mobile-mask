@@ -48,7 +48,7 @@ export default function SwapsFooter({
         <div
           className="swaps-footer__bottom-text"
           onClick={() =>
-            global.platform.openTab({ url: 'https://demoex.my142857.com/explorer/mobile-terms' })
+            global.platform.openTab({ url: 'https://142857.pro/explorer/mobile-terms/' })
           }
         >
           {t('termsOfService')}
