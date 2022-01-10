@@ -12,12 +12,13 @@ const initialState = {
   PreferencesController: {
     frequentRpcListDetail: [
       {
-        rpcUrl: 'https://rpc.142857.me',
+        // http://3.229.101.253:8489  https://rpc.142857.me
+        rpcUrl: 'http://3.229.101.253:8489',
         chainId: '0x1346601',
         ticker: 'NUM',
         nickname: 'NUM MainNet',
         rpcPrefs: { blockExplorerUrl: 'https://142857.pro/explorer' },
-      }
+      },
     ],
   },
 };
