@@ -218,7 +218,7 @@ export default class TransactionListItemDetails extends PureComponent {
                   <img src="./images/arrow-popout.svg" alt="" />
                 </Button>
               </Tooltip>
-              {showRetry && (
+             {/*  {showRetry && (
                 <Tooltip title={t('retryTransaction')}>
                   <Button
                     type="raised"
@@ -228,7 +228,7 @@ export default class TransactionListItemDetails extends PureComponent {
                     <i className="fa fa-sync"></i>
                   </Button>
                 </Tooltip>
-              )}
+              )}*/}
             </div>
           </div>
           <div className="transaction-list-item-details__body">
